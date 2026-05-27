@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Fitness Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mental Fitness Journey</h1>
+        
+        <!-- Video Player -->
+        <video id="quiz-video" controls>
+            <source src="your-video-file.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!-- Quiz Container (Hidden initially) -->
+        <div id="quiz-container" class="hidden">
+            <h2 id="question-text">Question goes here?</h2>
+            <div id="options-container"></div>
+        </div>
+
+        <!-- Completion Message (Hidden initially) -->
+        <div id="completion-container" class="hidden">
+            <h2>🎉 You Completed the Mental Fitness Video!</h2>
+            <p>Keep prioritizing your well-being.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
