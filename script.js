@@ -7,7 +7,7 @@ const completionContainer = document.getElementById('completion-container');
 // Define your "Softlock" timestamps (in seconds) and corresponding questions
 const quizStops = [
     {
-        time: 2, // Stops at 0:02
+        time: 15, // Stops at 0:15
         question: "What is the quiz about?",
         options: ["Mental Fitness", "Making fun of people", "Sleeping 12 hours a day"],
         correctIndex: 1
